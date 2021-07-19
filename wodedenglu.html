@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>我的登陆界面</title>		
+		<!-- 新 Bootstrap 核心 CSS 文件 -->
+<link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+ 
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+ 
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<style>
+			body{
+				background-color: #1E9FFF;
+			}
+			#kuai{
+				background-color: white;
+				margin: 0 auto;
+				text-align:center;
+				width: 550px;
+				height: 530px;
+				margin-top:50px ;
+			}
+			#tu{
+				width: 300px;
+				height: auto;
+			}
+			#zi{
+			font-family: "楷体";
+			font-size: 50px;
+			}
+			#name{
+			width: 426px;
+			height: 55px;
+			margin-left: -30px;
+			background-color: transparent;
+			padding-left:30px ;
+			border: 2px solid lightgrey;
+			border-radius: 10px;
+			}
+			#uname{
+			width: 426px;
+			height: 55px;
+			margin-left: -30px;
+			padding-left: 30px ;
+			background-color: transparent;
+			margin-top:10px ;
+			border: 2px solid lightgrey;
+			border-radius: 10px;
+			}
+			#deng{
+			width: 416px;
+			height: 55px;
+			background-color: orangered;
+			color: white;
+			border-radius: 10px;
+			margin-top: 10px;
+			
+			}
+			#qq,#wx,#wb{
+			margin-top:10px ;
+			}
+			#zizi{
+			color: darkgrey;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="kuai" >
+			<img src="images/nuc.png" id="tu"/>
+			<br />
+			<h1 id="zi">毕业设计管理系统</h1>
+			<br />
+			<img src="images/user.png"/>
+			<input type="text" placeholder="请输入用户名" id="name" />
+			<br />
+			<img src="images/password.png"/>
+			<input type="password" placeholder="请输入密码" id="uname"/>
+			<br />
+			<a href="http://www.qq.com"><button id="deng">登录</button></a>
+			<br />
+			<img src="images/qq.png" id="qq"/>
+			<img src="images/weixin.png" id="wx"/>
+			<img src="images/weibo.png" id="wb"/>
+			<br />
+			<h6 id="zizi">开发者：杨润芝 2013040934 中北大学软件学院</h6>
+		</div>
+	</body>
+</html>
